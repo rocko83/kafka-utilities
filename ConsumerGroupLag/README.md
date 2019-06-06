@@ -1,3 +1,10 @@
+#This Fork
+
+Basicaly this project fork added three features:
+1) The total Lag count.
+2) The producer position.
+3) The hability to retry the connection in the event of rebalancing or other problems and gave up after timeout.
+
 # ConsumerGroupLag
 A alternative to `kafka-consumer-groups.sh --describe` that:
 1) is faster
